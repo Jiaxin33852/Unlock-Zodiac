@@ -1,0 +1,59 @@
+/*
+Set background img
+Set img to cover screen
+*/
+body {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*
+Top menu part
+*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* use flexbox */
+    justify-content: space-around; /* separate menu item equally */
+}
+
+nav {
+    margin-top: 30px; /* Set the distance between menu container and top*/
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight : bolder;
+    font-style: italic 
+}
+
+/* Set style of topic and main content*/
+header {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 30px; /* title font size */
+}
+
+#main-content {
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px; 
+    line-height: 1.6; 
+    font-size: 23px;
+}
