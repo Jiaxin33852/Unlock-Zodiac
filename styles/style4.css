@@ -1,0 +1,75 @@
+/*
+Set background img
+Set img to cover screen
+*/
+body {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*
+Top menu part
+*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* use flexbox */
+    justify-content: space-around; /* separate menu item equally */
+}
+
+nav {
+    margin-top: 30px; /* Set the distance between menu container and top*/
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight : bolder;
+    font-style: italic 
+}
+
+/* Set the input container style*/
+body {
+    font-family: Inter;
+    text-align: center;
+}
+h1{
+    color: white;
+    margin-top: 150px;
+}
+.input-container {
+    margin-top: 50px;
+}
+input[type="text"] {
+    font-family: Inter;
+    font-size: 30px;
+    margin: 50px;
+    margin-top: 0px;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+.error-message {
+    color: red;
+}
+button {
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
