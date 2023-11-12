@@ -63,7 +63,7 @@ function onSubmit() {
     const monthValid = isValidMonth();
     const dayValid = isValidDay();
 
-    //current logic is to return the entered data, in the future we will have the page jump
+    //todo current logic is to return the entered data, in the future we will have the page jump
     if (monthValid&&dayValid) {
         alert('Input is Correct');
     } else {

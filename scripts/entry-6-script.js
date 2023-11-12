@@ -11,6 +11,6 @@ function checkSelections() {
         alert('Please make sure you choose two signs to pair');
     } else {
         alert('Paring...');
-        // 这里你可以添加提交的逻辑
+        // TODO add submit code
     }
 }
